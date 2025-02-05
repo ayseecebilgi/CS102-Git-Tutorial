@@ -33,7 +33,7 @@ public class Cipher
         {
             // append the encrypted version of the char to the output string
             outputString += replaceChar(inputString.charAt(i), false);// I fixed this part that
-            //decrypts each character in the string with the replaceChar method
+                //decrypts each character in the string with the replaceChar method
         }
 
         return outputString;
